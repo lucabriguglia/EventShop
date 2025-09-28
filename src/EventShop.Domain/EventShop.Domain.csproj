@@ -7,8 +7,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="OpenCqrs" Version="7.1.5" />
-      <PackageReference Include="OpenCqrs.EventSourcing" Version="7.1.5" />
+      <PackageReference Include="OpenCqrs" Version="7.2.0" />
+      <PackageReference Include="OpenCqrs.EventSourcing" Version="7.2.0" />
     </ItemGroup>
 
 </Project>
