@@ -1,6 +1,6 @@
 ﻿using EventShop.Infrastructure.Projections;
-using OpenCqrs.Queries;
-using OpenCqrs.Results;
+using Memoria.Queries;
+using Memoria.Results;
 
 namespace EventShop.Application.Catalog.Queries;
 

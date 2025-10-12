@@ -1,4 +1,5 @@
 # 🛍️ EventShop
-A .NET showcase of DDD, CQRS, and Event Sourcing using [OpenCQRS](https://github.com/OpenCQRS/OpenCQRS).
+
+A .NET showcase of DDD, CQRS, and Event Sourcing using [Memoria](https://github.com/lucabriguglia/Memoria).
 
 _Work In Progress_

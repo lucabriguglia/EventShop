@@ -2,9 +2,9 @@ using EventShop.Web.Data;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Time.Testing;
-using OpenCqrs.EventSourcing;
-using OpenCqrs.EventSourcing.Store.EntityFrameworkCore;
-using OpenCqrs.EventSourcing.Store.EntityFrameworkCore.Identity;
+using Memoria.EventSourcing;
+using Memoria.EventSourcing.Store.EntityFrameworkCore;
+using Memoria.EventSourcing.Store.EntityFrameworkCore.Identity;
 
 namespace EventShop.Tests.Component.Fixture;
 

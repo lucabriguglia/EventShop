@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using OpenCqrs.EventSourcing.Store.EntityFrameworkCore.Identity;
+using Memoria.EventSourcing.Store.EntityFrameworkCore.Identity;
 
 namespace EventShop.Web.Data;
 

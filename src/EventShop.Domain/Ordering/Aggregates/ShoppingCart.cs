@@ -1,6 +1,6 @@
 ﻿using EventShop.Domain.Ordering.Events;
 using Newtonsoft.Json;
-using OpenCqrs.EventSourcing.Domain;
+using Memoria.EventSourcing.Domain;
 
 namespace EventShop.Domain.Ordering.Aggregates;
 

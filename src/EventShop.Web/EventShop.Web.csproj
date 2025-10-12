@@ -16,16 +16,16 @@
         <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.9"/>
         <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.9"/>
         <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.9"/>
-        <PackageReference Include="OpenCqrs" Version="7.2.0" />
-        <PackageReference Include="OpenCqrs.Caching.Memory" Version="7.2.0" />
-        <PackageReference Include="OpenCqrs.Caching.Redis" Version="7.2.0" />
-        <PackageReference Include="OpenCqrs.EventSourcing" Version="7.2.0" />
-        <PackageReference Include="OpenCqrs.EventSourcing.Store.Cosmos" Version="7.2.0" />
-        <PackageReference Include="OpenCqrs.EventSourcing.Store.EntityFrameworkCore" Version="7.2.0" />
-        <PackageReference Include="OpenCqrs.EventSourcing.Store.EntityFrameworkCore.Identity" Version="7.2.0" />
-        <PackageReference Include="OpenCqrs.Messaging.RabbitMq" Version="7.2.0" />
-        <PackageReference Include="OpenCqrs.Messaging.ServiceBus" Version="7.2.0" />
-        <PackageReference Include="OpenCqrs.Validation.FluentValidation" Version="7.2.0" />
+        <PackageReference Include="Memoria" Version="1.0.0" />
+        <PackageReference Include="Memoria.Caching.Memory" Version="1.0.0" />
+        <PackageReference Include="Memoria.Caching.Redis" Version="1.0.0" />
+        <PackageReference Include="Memoria.EventSourcing" Version="1.0.0" />
+        <PackageReference Include="Memoria.EventSourcing.Store.Cosmos" Version="1.0.0" />
+        <PackageReference Include="Memoria.EventSourcing.Store.EntityFrameworkCore" Version="1.0.0" />
+        <PackageReference Include="Memoria.EventSourcing.Store.EntityFrameworkCore.Identity" Version="1.0.0" />
+        <PackageReference Include="Memoria.Messaging.RabbitMq" Version="1.0.0" />
+        <PackageReference Include="Memoria.Messaging.ServiceBus" Version="1.0.0" />
+        <PackageReference Include="Memoria.Validation.FluentValidation" Version="1.0.0" />
     </ItemGroup>
 
     <ItemGroup>

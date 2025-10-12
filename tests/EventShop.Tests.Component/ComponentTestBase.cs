@@ -4,8 +4,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Time.Testing;
-using OpenCqrs;
-using OpenCqrs.EventSourcing;
+using Memoria;
+using Memoria.EventSourcing;
 using Xunit;
 
 namespace EventShop.Tests.Component;

@@ -2,9 +2,9 @@ using EventShop.Domain.Catalog.Aggregates;
 using EventShop.Domain.Ordering.Aggregates;
 using EventShop.Domain.Streams;
 using FluentValidation;
-using OpenCqrs.Commands;
-using OpenCqrs.EventSourcing;
-using OpenCqrs.Results;
+using Memoria.Commands;
+using Memoria.EventSourcing;
+using Memoria.Results;
 
 namespace EventShop.Application.Ordering.Commands;
 

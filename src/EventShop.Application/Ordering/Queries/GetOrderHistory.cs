@@ -1,5 +1,5 @@
 using EventShop.Infrastructure.Projections;
-using OpenCqrs.Queries;
+using Memoria.Queries;
 
 namespace EventShop.Application.Ordering.Queries;
 

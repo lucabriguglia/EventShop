@@ -6,11 +6,11 @@ using Microsoft.EntityFrameworkCore;
 using EventShop.Web.Components;
 using EventShop.Web.Components.Account;
 using EventShop.Web.Data;
-using OpenCqrs.EventSourcing.Extensions;
-using OpenCqrs.EventSourcing.Store.EntityFrameworkCore.Extensions;
-using OpenCqrs.EventSourcing.Store.EntityFrameworkCore.Identity;
-using OpenCqrs.Extensions;
-using OpenCqrs.Validation.FluentValidation.Extensions;
+using Memoria.EventSourcing.Extensions;
+using Memoria.EventSourcing.Store.EntityFrameworkCore.Extensions;
+using Memoria.EventSourcing.Store.EntityFrameworkCore.Identity;
+using Memoria.Extensions;
+using Memoria.Validation.FluentValidation.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -52,10 +52,10 @@ builder.Services
         .Options);
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlite(connectionString));
 
-builder.Services.AddOpenCqrs(typeof(CreateProduct));
-builder.Services.AddOpenCqrsEventSourcing(typeof(Product));
-builder.Services.AddOpenCqrsEntityFrameworkCore<ApplicationDbContext>();
-builder.Services.AddOpenCqrsFluentValidation(typeof(CreateProduct));
+builder.Services.AddMemoria(typeof(CreateProduct));
+builder.Services.AddMemoriaEventSourcing(typeof(Product));
+builder.Services.AddMemoriaEntityFrameworkCore<ApplicationDbContext>();
+builder.Services.AddMemoriaFluentValidation(typeof(CreateProduct));
 
 var app = builder.Build();
 

@@ -1,6 +1,6 @@
 ﻿using EventShop.Domain.Catalog.Events;
-using OpenCqrs.EventSourcing.Domain;
-using OpenCqrs.Results;
+using Memoria.EventSourcing.Domain;
+using Memoria.Results;
 
 namespace EventShop.Domain.Catalog.Aggregates;
 

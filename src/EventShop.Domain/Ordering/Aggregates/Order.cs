@@ -1,5 +1,5 @@
 ﻿using EventShop.Domain.Catalog.Events;
-using OpenCqrs.EventSourcing.Domain;
+using Memoria.EventSourcing.Domain;
 
 namespace EventShop.Domain.Ordering.Aggregates;
 
