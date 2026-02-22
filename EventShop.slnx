@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/SolutionItems/">
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/EventShop.Application/EventShop.Application.csproj" />
+    <Project Path="src/EventShop.Domain/EventShop.Domain.csproj" />
+    <Project Path="src/EventShop.Function/EventShop.Function.csproj" />
+    <Project Path="src/EventShop.Infrastructure/EventShop.Infrastructure.csproj" />
+    <Project Path="src/EventShop.Web/EventShop.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/EventShop.Tests.Component/EventShop.Tests.Component.csproj" />
+  </Folder>
+</Solution>
