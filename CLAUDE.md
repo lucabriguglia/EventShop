@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ```bash
 # Build the solution
-dotnet build EventShop.sln
+dotnet build EventShop.slnx
 
 # Run component tests
 dotnet test tests/EventShop.Tests.Component/EventShop.Tests.Component.csproj
